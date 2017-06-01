@@ -1,0 +1,180 @@
+@import url(reset.css);
+.size-14 {
+  font-size: 14px; }
+
+.size-16 {
+  font-size: 16px; }
+
+.size-18 {
+  font-size: 18px; }
+
+.size-20 {
+  font-size: 20px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column; }
+
+html {
+  font-size: 62.5%; }
+
+.header {
+  width: 100%;
+  height: 5.4rem;
+  background: #ffffff;
+  border-bottom: 1px solid #d5d5d5;
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem;
+  box-sizing: border-box; }
+  .header .left img {
+    width: auto;
+    height: 1.6rem;
+    background: none;
+    margin: 2rem 1.8rem 0 0; }
+  .header .right button {
+    color: #fe5658;
+    font-size: 1.6rem;
+    margin: 20px 0 0 14px;
+    border: none;
+    outline: none;
+    background: none; }
+  .header .center {
+    flex: 1;
+    position: relative; }
+    .header .center img {
+      width: auto;
+      height: 1.4rem;
+      background: none;
+      position: absolute;
+      top: 1.8rem;
+      left: 1rem; }
+    .header .center input {
+      width: 100%;
+      height: 3.3rem;
+      background: #eeeeee;
+      border: none;
+      outline: none;
+      margin-top: 10px;
+      padding-left: 3.6rem;
+      border-radius: 5px; }
+.section {
+  flex: 1;
+  overflow-y: auto;
+}
+.section::-weblit-soallder {
+  width: 0;
+}
+.section .follow-list {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.section .follow-list dl {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 7.2rem;
+  background: none;
+}
+.section .follow-list dl dt img {
+  width: auto;
+  height: 4rem;
+  background: none;
+  margin-right: 1.6rem;
+  margin-top: 1.7rem;
+}
+.section .follow-list dl dd {
+  margin-top: 1.7rem;
+}
+.section .follow-list dl dd input {
+  position: absolute;
+  right: 0;
+  top: 2.3rem;
+  width: 6rem;
+  height: 2.5rem;
+  background: none;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid #cacaca;
+  color: #aaaaaa;
+}
+.section .follow-list dl dd span {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.section .follow-list dl dd p {
+  color: #d1d1d1;
+}
+.section .family-list {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.section .family-list .attention {
+  width: 100%;
+  height: 15rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+}
+.section .family-list .attention dl {
+  width: 100%;
+  height: 7.2rem;
+  background: none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.section .family-list .attention dt img {
+  margin-top: 2.4rem;
+  margin-right: 1.4rem;
+  width: auto;
+  height: 4rem;
+  background: none;
+}
+.section .family-list .attention dd {
+  margin-top: 2.4rem;
+}
+.section .family-list .attention dd span {
+  width: auto;
+  height: 1.4rem;
+  background: none;
+  border: 1px solid #d3d3d3;
+  margin-top: 0.8rem;
+  color: #d3d3d3;
+  display: inline-block;
+  padding: 0 0.2rem;
+  margin-right: 0.2rem;
+  border-radius: 2px;
+}
+.section .family-list .attention dd p {
+  color: #999;
+}
+.section .family-list .attention dd input {
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  width: 6rem;
+  height: 2.4rem;
+  background: none;
+  outline: none;
+  border: 1px solid #ff5c5c;
+  border-radius: 5px;
+  color: #FF5C5C;
+}
+.section .family-list .jian {
+  margin-top: 2rem;
+  color: #b1b1b1;
+  text-overflow: ellipsis;
+}
